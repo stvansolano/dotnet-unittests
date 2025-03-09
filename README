@@ -1,0 +1,44 @@
+# .NET and C# Unit Testing Project
+
+This is a basic C# project for playing with .NET and C# and Unit Testing.
+
+## Getting Started
+
+### Prerequisites
+
+- [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.
+
+### Installing
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/dotnet-tests-scaffold.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd dotnet-tests-scaffold
+    ```
+3. Restore the dependencies:
+    ```sh
+    dotnet restore
+    ```
+
+### Running the Tests
+
+To run the unit tests, use the following command:
+```sh
+dotnet test
+```
+
+## Project Structure
+
+- `src/` - Contains the main project source code.
+- `tests/` - Contains the unit tests.
+
+## Contributing
+
+Feel free to submit issues and pull requests.
+
+## License
+
+This project is licensed under the MIT License.
