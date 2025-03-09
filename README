@@ -55,6 +55,14 @@ You can also run the tests using Visual Studio Code. Follow these steps:
 
 ![Integrated Terminal](./screenshots/vs-code-shell.png)
 
+## Using VS Code Copilot Agent Mode
+
+With VS Code Copilot Agent Mode, you can delegate the creation of new tests to the Copilot agent. The agent can automatically generate and run tests, streamlining your development workflow.
+
+![Copilot Agent Mode](./screenshots/vs-code-agent.png)
+
+![Copilot Running Tests](./screenshots/vs-code-passed.png)
+
 ## Contributing
 
 Feel free to submit issues and pull requests.
