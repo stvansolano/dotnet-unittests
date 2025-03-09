@@ -23,13 +23,37 @@ This is a basic C# project for playing with .NET and C# and Unit Testing.
     dotnet restore
     ```
 
-### Running the Tests
-
+### Running the Tests from command line
 To run the unit tests, use the following command:
 
 ```sh
-dotnet test
+dotnet test --filter FullyQualifiedName~UnitTests.HelloWorldTests
 ```
+
+### Running Tests in Visual Studio Code
+
+You can also run the tests using Visual Studio Code. Follow these steps:
+
+1. Open the project in Visual Studio Code:
+    ```sh
+    code .
+    ```
+
+2. Open the integrated terminal in VSCode:
+    - Go to `View` > `Terminal` or press `` Ctrl+` ``.
+
+3. In the terminal, run the tests:
+    ```sh
+    dotnet test --filter FullyQualifiedName~UnitTests.HelloWorldTests
+    ```
+
+4. Alternatively, you can use the Testing tab:
+    - Go to `View` > `Testing` or press `Ctrl+Shift+P` and type `Testing: Focus on Testing View`.
+    - Click on the `Run Tests` button.
+
+![Testing Tab](./screenshots/vs-code-testing.png)
+
+![Integrated Terminal](./screenshots/vs-code-shell.png)
 
 ## Contributing
 
